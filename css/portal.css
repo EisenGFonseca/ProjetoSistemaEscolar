@@ -1,0 +1,154 @@
+#wrapper {
+  width: 100%;
+  max-width: 143rem;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+#pagebody {
+    width: 100%;
+    float: right;
+    right: 0%;
+}
+
+#content {
+    margin: 1rem 0;
+    margin-left: 10px;
+}
+
+#lateral {
+  width: 18%;
+  height: 100%;
+  position: fixed;
+  float: left;
+  display: block;
+  margin: 40px 0px 0px 0px;
+  padding-left: 5px;
+  padding-right: 1%;
+  color: #ffffff;
+  background-color: #002e44;
+}
+
+#lateral a{
+  font-size: 16px;
+  text-decoration: none;
+  text-align: left;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+.link-titulo {
+  font-size: 20px;
+  margin: 25px 0 10px 6px;
+  border-bottom: 1px solid #ffffff26;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.linha_baixo {
+  font-size: 3.5rem;
+  border-bottom: 1px solid #d7d7d7;
+  margin: 0;
+}
+
+.box>li>a {
+  display: block;
+}
+
+li {
+  margin-bottom: .6rem;
+  font-size: 2rem;
+}
+
+ul {
+  font-size: 1.6rem;
+  font-size: 1.6rem;
+  margin-left: 1em;
+}
+
+.lateral_font {
+  color: white !important;
+  margin: 0px 0px 10px 6px;
+}
+
+a.lateral_font:hover {
+    color: rgb(164, 164, 164) !important;
+    text-decoration: none !important;
+    outline: 0 !important;
+}
+
+.box_lateral{
+  margin-bottom: 20px;
+}
+
+.box{
+  padding: 0px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.box-cadastro{
+  display: block;
+  padding: 0px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.dropdown{
+  margin: -10px 0px;
+}
+
+.nav-tabs {
+  margin: 0px;
+  margin-bottom: 15px !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 10px !important;
+}
+
+
+.arrow-up-left {
+    margin-left: -50px;
+    margin-top: -30px;
+}
+
+@media (max-width:62.5em) {
+  #pagebody {
+      width: 100%;
+      float: none;
+      padding: 5px 0px 10px 0px;
+  }
+
+  #lateral{
+    display: none;
+  }
+  #nav {
+    text-align: center;
+  }
+
+  #footer {
+    height: 16rem;
+  }
+
+  .aparece{
+    display: block;
+  }
+
+  .sumir-tabela, .hamburger-box{
+    display: none !important;
+  }
+
+  #fulano {
+    right: -1.5%;
+  }
+
+  .arrow-up-left{
+    margin-left: 32px;
+    margin-top: -68px;
+    margin-bottom: 18px;
+    transform: rotate(38deg);
+  }
+}
